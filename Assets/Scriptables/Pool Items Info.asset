@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc00e285bfb9454ebf8d0a72650908a, type: 3}
+  m_Name: Pool Items Info
+  m_EditorClassIdentifier: 
+  itemsInfo:
+  - name: GreenEnemy
+    prefab: {fileID: 5788046677344776284, guid: fb3466273a0c53d47a672df7b489242e,
+      type: 3}
+    preWarmCount: 5
+  - name: RedEnemy
+    prefab: {fileID: 4378410905770030037, guid: bd1f7993d764e2740869fa1972544610,
+      type: 3}
+    preWarmCount: 5
+  - name: YellowEnemy
+    prefab: {fileID: 2290555871364506202, guid: 3162cd6ef9552774aa20f23b56e68f3d,
+      type: 3}
+    preWarmCount: 5
